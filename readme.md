@@ -11,3 +11,8 @@
 
 ### Design 🎨
 ![Alt text](image.png)
+
+<hr>
+
+### Projeto 🖥️
+<p>Acesse o projeto por esse link: <a href="https://gabriell0610.github.io/API-Clima/" target="_blank"> Projeto </a><p>
