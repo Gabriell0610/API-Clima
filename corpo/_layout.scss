@@ -1,0 +1,167 @@
+$bg-color: #d68181;
+$color-decoration1: #D14D72;
+$color-decoration2: #13b37d;
+$white-normal: #fff;
+$white-dark: #faf8f8;
+
+.card {
+    width: 1150px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: $bg-color;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.content {
+    padding: 20px 45px;
+    color: $white-dark;
+}
+
+.card h2 {
+    font-size: 28px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.form-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.form-container input {
+    padding: .8rem;
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid $white-normal;
+    width: 370px;
+    color: $white-normal;
+    font-weight: 600;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: $white-normal;
+    font-weight: bold;
+}
+
+#btn {
+    min-width: 45px;
+    border: none;
+    background-color: $color-decoration1;
+    color: $white-dark;
+    border-radius: 5px;
+
+    #btn i {
+        font-size: 16px;
+    }
+}
+
+
+#description {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+#description h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 28px;
+
+    #icon-locate {
+        color: $color-decoration1;
+    }
+
+    #country {
+        height: 50px;
+    }
+}
+
+
+#temperature {
+    margin-top: 1rem;
+    font-size: 20px;
+
+    #temperature, span {
+        font-size: 50px;
+    }
+}
+
+#description-climate {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    #descricao-clima {
+        font-size: 17px;
+        font-weight: 300;
+    }
+}
+
+
+
+#details-container {
+    border-top: 2px solid $white-normal;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    #details i {
+        font-size: 20px;
+    }
+
+    #icon-umidade {
+        color: $color-decoration2;
+    }
+}
+
+
+#details-container-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    margin-top: 8px;
+    border-bottom: 2px solid $white-normal;
+    padding: 0 30px;
+}
+
+#details, p {
+   padding-bottom: 5px;
+   font-size: 17px;
+   font-weight: 600;
+   
+   #details, span {
+    font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

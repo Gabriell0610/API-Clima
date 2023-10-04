@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <main class="card">
+      <div class="content">
+			<h2>Veja o clima de qualquer cidade</h2>
+         <div class="form-container">
+            <input type="text" placeholder="Digite o local" id="input-city" class="">
+            <button id="btn">
+               <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+         </div> 
+ 
+         <div id="description">
+            <h2>
+             <i class="fa-solid fa-location-dot" id="icon-locate"></i>
+               <span id="city">Niterói</span>
+               <img 
+               src="https://flagsapi.com/BR/flat/64.png" 
+               alt="Bandeira do país"
+               id="country"
+               >
+            </h2>
+            <p id="temperature"> <span>30</span>&deg;C</p>
+         </div>
+ 
+         <div id="description-climate">
+            <p id="descricao-clima">Ensolarado</p>
+            <img 
+            src="http://openweathermap.org/img/wn/01d.png" 
+            alt="Descrição do clima"
+            id="icon-clima"
+            >
+         </div>
+ 
+         <div id="details-container">
+				<div id="details">
+					<i class="fa-solid fa-droplet" id="icon-umidade"></i>
+					<p>Umidade:</p>
+					<p id="umidade">
+						<span>70%</span>
+					</p>
+				</div>
+				<div id="details">
+					<i class="fa-solid fa-wind"></i>
+					<p>Vento:</p>
+					<p id="vento">
+						<span>3km/h</span>
+					</p>
+				</div>
+				<div id="details">
+					<i class="fa-solid fa-cloud"></i>
+					<p>Nuvem:</p>
+					<p id="nuvem">
+						<span>80%</span>
+					</p>
+				</div>
+         </div> <!-- Description -->
+		</div> <!-- Content -->
+
+		<div class="content">
+			<div id="details-container-two">
+				<div id="details">
+					<p>Sensação térmica:</p>
+					<p id="sensacao-termica">
+					<span>21</span>&deg;C
+					</p>
+				</div>
+				<div id="details">
+					<p>Temp.Mínima:</p>
+					<p id="temp-minima">
+						<span >19</span>&deg;C
+					</p>
+				</div>
+				<div id="details">
+					<p>Temp.Máxima</p>
+					<p id="temp-maxima">
+						<span >24</span>&deg;C
+					</p>
+				</div>
+			</div>		
+			<div class="img">
+				<img 
+				src="img/img-projeto-2.png"
+				alt="Imagem ilustrativa"
+				>
+			</div>
+		</div> 
+   </main>
+
+   <script src="script.js" defer></script>
+</body>
+</html>
