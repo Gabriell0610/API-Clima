@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +6,8 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-@import "./corpo/layout";
-
+@import "partials/colors";
+@import "partials/layout";
 
 
 body {
