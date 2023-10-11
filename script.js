@@ -1,4 +1,4 @@
-const apiKey = "fa4360e8851cf156b50f1fea21fec6ba"
+
 
 const nameCity = document.querySelector('#city');
 const tempElement = document.querySelector('#temperature span')
